@@ -1,0 +1,31 @@
+{
+  "name": "p5js-examples",
+  "version": "0.0.1",
+  "description": "Some examples for p5.js. They work locally with auto-reload.",
+  "keywords": [
+    "p5js",
+    "examples",
+    "auto reload"
+  ],
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "gokce",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gokce/p5js-examples"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "dateformat": "^3.0.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "connect-browser-sync": "^2.1.0",
+    "simple-git": "^1.129.0"
+  }
+}
